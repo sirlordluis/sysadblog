@@ -119,7 +119,7 @@ LOAD DATA LOCAL INFILE 'partidas.csv' INTO TABLE chessgame
 ```
 Running the script.
 ``` console
-sirlordluis@mipc:~$ time mysql --local-infile -u root dbprueba < increase_speed.sql
+sirlordluis@mipc:~$ time mysql --local-infile -u root database_name < increase_speed.sql
 mysql --local-infile -u root database_name < increase_speed.sql  0.00s user 0.01s system 0% cpu 7:04.70 total
 ```
 Look at the time, this is a big improvement over the previous one. The previous one took over 7 hours, whereas this one only took 7 minutes."
